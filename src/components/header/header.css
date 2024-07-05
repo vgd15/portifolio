@@ -24,8 +24,8 @@ button{
     border: none;
 }
 
-.links-button ul li a{
-    color: var(--color-third);
+.sidebar-menu ul li a{
+    color: var(--color-third)!important;
 }
 
 i{
