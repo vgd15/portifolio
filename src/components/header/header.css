@@ -24,6 +24,10 @@ button{
     border: none;
 }
 
+.links-button ul li a{
+    color: var(--color-third);
+}
+
 i{
     color:var(--color-secondary);
 }
