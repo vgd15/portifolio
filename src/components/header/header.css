@@ -33,7 +33,7 @@ i{
 }
 
 .sidebar-menu{
-    position: absolute;
+    position: fixed;
     z-index: 1;
     top:94px;
     right: -100%;
