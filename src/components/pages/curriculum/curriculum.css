@@ -1,0 +1,87 @@
+.curriculum{
+    background-color: var(--color-primary);
+    padding-bottom: 44px;
+}
+
+.title-curriculum{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 40px 20px 20px
+}
+
+.card{
+    max-width: 620px;
+    border: none;
+    box-shadow: 1px 1px 12px #ccc;
+    border-radius: 2px;
+    padding: 20px;
+    width: 100%;
+}
+
+.top-card{
+    box-shadow: none;
+}
+
+.top-card h3{
+    font-weight: 700;
+    font-size:1.4rem;
+    padding-bottom: 20px;
+}
+
+.card-title{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color:var(--color-secondary);
+    text-align: left;
+}
+
+.card p{
+    font-size: 0.6rem;
+    line-height: 2.5;
+    text-align: left;
+}
+
+.card .card-text{
+    line-height: 1.5;
+    font-size: 0.8rem;
+}
+
+.card{
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card-box{
+    gap:44px;
+}
+
+.soft-list, .hard-list{
+    display:grid;
+    grid-template-columns: repeat(4,auto);
+    column-gap:20px;
+    font-weight: 700;
+}
+
+.idiomas-list{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 991px){
+    .curriculum{
+        padding: 0 1.5rem 44px;
+        
+    }
+
+    .soft-list, .hard-list{
+        grid-template-columns: repeat(2, auto);
+        column-gap: 40px;
+    }
+
+    .soft, .hard, .idiomas{
+        align-items: start!important;
+    }
+
+}

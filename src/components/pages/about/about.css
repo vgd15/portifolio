@@ -1,0 +1,107 @@
+.img-perfil{
+    width: 100px;
+    height: 100px;
+}
+
+.home{
+    position: relative;
+    background-image: url('../../../img/Rectangle\ 29.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.suporte-img{
+    overflow: hidden;
+    width: 260px;
+    height:390px;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.home img{
+    width: 100%;
+    height: auto;
+    margin: 0px 0 34px 0;
+}
+
+.home strong{
+    font-size: 2rem;
+    line-height: 1.3;
+}
+
+.about-home{
+    padding: 5%;
+}
+
+.box-img{
+    position: relative;
+    background: var(--color-primary);
+    width: 375px;
+    height: 650px;
+    box-shadow: 3px 3px 15px 0px #0000001A;
+}
+
+.box-img svg{
+    margin: 20px 0 20px;
+}
+
+.occupation{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 80px;
+}
+
+.footer-box{
+    position: absolute;
+    background: #ffffff;
+    bottom: 0;
+    padding: 15px;
+}
+
+.footer-box i{
+    color:var(--color-third);
+    font-size: 1.5rem;
+}
+
+.salutation strong{
+    font-size: 3rem;
+}
+
+.salutation{
+    margin: 1rem;
+}
+
+.box-text > span{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.button-list{
+    margin: 1.5rem 0;
+}
+
+.box-text p{
+    text-align: justify;
+}
+
+.button-list a{
+    background: transparent;
+    color:var(--color-secondary);
+    border: 2px solid var(--color-secondary);
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.button-list a:hover{
+    background: var(--color-secondary);
+    color:#fff;
+    border: 2px solid var(--color-secondary);
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 991px){
+    .about-home{
+        flex-direction: column;
+    }
+}

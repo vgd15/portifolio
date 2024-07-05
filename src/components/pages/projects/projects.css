@@ -1,0 +1,64 @@
+.projects{
+    background:var(--color-primary);
+    padding-bottom: 44px;
+}
+
+.title-projects{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 40px 20px 40px
+}
+
+.projects .card{
+    max-width: 700px;
+    height: 235px;
+}
+
+.img-projeto{
+    max-width: 300px;
+}
+
+.img-card{
+    position: relative;
+}
+
+.overlay-img{
+    background: #000;
+    opacity: 0;
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    transition: opacity 0.5s ease;
+}
+
+.img-card:hover .overlay-img{
+    opacity: 0.5;
+    background-image: url("../../../img/Lupa.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 991px){
+    .projects{
+        padding: 0 1.5rem 44px;
+    }
+
+    .projects .card{
+        height: auto;
+    }
+
+    .card:hover {
+        transform: none;
+    }
+
+    .overlay-img{
+        left:32px;
+    }
+
+    .card > div{
+        gap: 15px;
+    }
+}

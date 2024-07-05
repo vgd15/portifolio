@@ -1,0 +1,22 @@
+.contact .card a{
+    text-decoration: none;
+    color:var(--color-third)
+}
+
+.contact .card a i{
+    margin-right: 10px;
+}
+
+.contact-list{
+   gap: 20px;
+}
+
+.contact{
+    height: 72vh;
+}
+
+@media screen and (max-width: 991px){
+    .contact {
+        height: 72vh;
+    }
+}
