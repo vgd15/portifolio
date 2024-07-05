@@ -31,9 +31,10 @@ function About(){
                         <h2 className="salutation"><strong>Olá</strong></h2>
                         <span>Meu perfil e meus projetos</span>
                         <div className="button-list">
-                            <ul className="d-flex flex-row gap-3 justify-content-center align-items-center">
+                            <ul className="d-flex flex-row gap-2 gap-md-3 justify-content-center align-items-center flex-wrap">
                                 <li><a href="/curriculum" className="btn btn-primary curriculo">CURRÍCULO</a></li>
                                 <li><a href="/projects" className="btn btn-primary projetos">PROJETOS</a></li>
+                                <li><a href="/cursos" className="btn btn-primary projetos">CURSOS</a></li>
                             </ul>
                         </div>
                         <p className="">

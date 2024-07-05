@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './header.css';
 import { Link } from 'react-router-dom';
 import sidebarMenu from '../../img/sidebarMenu.png';
+import Closer from '../../img/Fechar.svg'
 
 function Header(props) {
 
@@ -37,10 +38,16 @@ function Header(props) {
                             </Link>
                         </li>
                         <li>
+                            <Link to="/courses">
+                                <button> Courses </button>
+                            </Link>
+                        </li>
+                        <li>
                             <Link to="/contact">
                                 <button> Contact </button>
                             </Link>
                         </li>
+                        
                     </ul>
                 </div>
             </section>
@@ -57,6 +64,11 @@ function Header(props) {
                 </div>
 
                 <div className="sidebar-menu">
+                    <div class="close d-flex justify-content-start align-items-center">
+                            <button onClick={handleClick} className="close-button">
+                            <img src={Closer} alt="fechar sidebar"></img>
+                            </button>
+                    </div>
                     <ul className="d-flex justify-content-between align-items-center flex-column">
                         <li>
                             <Link to="/about">
@@ -74,10 +86,16 @@ function Header(props) {
                             </Link>
                         </li>
                         <li>
+                            <Link to="/courses">
+                                <button onClick={handleClick}> Courses </button>
+                            </Link>
+                        </li>
+                        <li>
                             <Link to="contact">
                                 <button onClick={handleClick}> Contact </button>
                             </Link>
                         </li>
+                        
                     </ul>
                 </div>
 

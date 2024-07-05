@@ -93,11 +93,12 @@
     transition: 0.3s;
 }
 
-.button-list a:hover{
+.button-list a:hover, .btn:focus-visible, .btn:first-child:active {
     background: var(--color-secondary);
     color:#fff;
     border: 2px solid var(--color-secondary);
     transform: scale(1.1);
+    box-shadow: none;
 }
 
 @media screen and (max-width: 991px){
@@ -105,3 +106,4 @@
         flex-direction: column;
     }
 }
+

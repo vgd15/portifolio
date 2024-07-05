@@ -8,6 +8,7 @@ import Curriculum from './components/pages/curriculum/curriculum.jsx';
 import Footer from './components/footer/footer.jsx';
 import Projects from './components/pages/projects/projects.jsx';
 import Contact from './components/pages/contact/contact.jsx';
+import Courses from './components/pages/courses/courses.jsx';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
                 <Route path='/curriculum' element={<Curriculum/>} />
                 <Route path='/projects' element={<Projects/>} />
                 <Route path='/contact' element={<Contact/>} />
+                <Route path='/courses' element={<Courses/>} />
 
               </Routes>
         

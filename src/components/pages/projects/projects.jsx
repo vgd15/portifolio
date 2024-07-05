@@ -53,7 +53,7 @@ function Projects(){
                                 </div>
                                 <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
                                     <img src={VoltVitoria} alt="Imagem terceiro projeto" className="img-projeto" />
-                                    <a href="https://front-do-projeto-back-end.vercel.app/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
+                                    <a href="https://spielersports.core.dcg.com.br/vitoria" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
                                 </div>
                             </div>
                           </div>
