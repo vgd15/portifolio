@@ -24,10 +24,6 @@ button{
     border: none;
 }
 
-.sidebar-menu ul li a{
-    color: var(--color-third)!important;
-}
-
 i{
     color:var(--color-secondary);
 }
@@ -64,7 +60,7 @@ i{
 }
 
 .sidebar-menu ul li a, .sidebar-menu ul li a button{
-    color:var(--color-third);
+    color:var(--color-third)!important;
 }
 
 .sidebar-mobile{
