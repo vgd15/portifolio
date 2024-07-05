@@ -63,7 +63,7 @@ i{
     padding: 15px;
 }
 
-.sidebar-menu ul li a{
+.sidebar-menu ul li a, .sidebar-menu ul li a button{
     color:var(--color-third);
 }
 
