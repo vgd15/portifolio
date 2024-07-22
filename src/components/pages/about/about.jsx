@@ -34,7 +34,7 @@ function About(){
                             <ul className="d-flex flex-row gap-2 gap-md-3 justify-content-center align-items-center flex-wrap">
                                 <li><a href="/curriculum" className="btn btn-primary curriculo">CURRÍCULO</a></li>
                                 <li><a href="/projects" className="btn btn-primary projetos">PROJETOS</a></li>
-                                <li><a href="/cursos" className="btn btn-primary projetos">CURSOS</a></li>
+                                <li><a href="/courses" className="btn btn-primary projetos">CURSOS</a></li>
                             </ul>
                         </div>
                         <p className="">
