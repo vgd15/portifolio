@@ -105,7 +105,7 @@ function Projects(){
                           <div className="card">
                             <div className=" d-flex flex-row row">
                                 <div className="col-md-5 ">
-                                <h3 className="card-title">Contrutor de URL</h3>
+                                <h3 className="card-title">Construtor de URL</h3>
                                 <p>Este projeto foi construído para o time de marketing da empresa Nairuz Marketing Digital e Tecnologia, para que fosse padronizado o processo de criação de URL para campanhas.</p>
                                 </div>
                                 <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">

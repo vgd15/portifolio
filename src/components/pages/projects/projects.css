@@ -69,9 +69,3 @@
     }
 
 }
-
-@media screen and (max-width: 375px){
-    .overlay-img {
-        left: 12px;
-    }
-}
