@@ -55,12 +55,19 @@
     }
 
     .overlay-img{
-        left:32px;
+        left:0px;
     }
 
     .card > div{
         gap: 15px;
+        justify-content: center;
     }
+
+    .img-card{
+        width: fit-content;
+        padding: 0;
+    }
+
 }
 
 @media screen and (max-width: 375px){

@@ -260,7 +260,7 @@ function Projects(){
                             <div className=" d-flex flex-row row">
                                 <div className="col-md-5 ">
                                 <h3 className="card-title">Calculadora nutricional </h3>
-                                <p>Este foi um dos primeiros projetos que desenvolvi, é um projeto no qual se consome uma API que retorna os valores nutricionais dos alimentos, foi desenvolvido em React com uso dos Hooks, é uma aplicação somente para Desktop</p>
+                                <p>Projeto no qual se consome uma API que retorna os valores nutricionais dos alimentos, foi desenvolvido em React com uso dos Hooks, somente para Desktop</p>
                                 </div>
                                 <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
                                     <img src={CalculadoraNutri} alt="Imagem primeiro projeto" className="img-projeto" />
