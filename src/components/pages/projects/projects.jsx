@@ -19,7 +19,7 @@ import DomLocalStorage from '../../../img/DomLocalStorage.png'
 import PaginaDinamica from '../../../img/PaginaDinamica.png';
 import MetodosArray from '../../../img/MetodosArray.png';
 import ValidandoFormularios from '../../../img/ValidandoFormularios.png';
-import Valem from '../../../img/Valem.png';
+import Valem from '../../../img/valem.png';
 
 
 
