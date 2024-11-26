@@ -19,6 +19,7 @@ import DomLocalStorage from '../../../img/DomLocalStorage.png'
 import PaginaDinamica from '../../../img/PaginaDinamica.png';
 import MetodosArray from '../../../img/MetodosArray.png';
 import ValidandoFormularios from '../../../img/ValidandoFormularios.png';
+import Valem from '../../../img/Valem.png';
 
 
 
@@ -33,11 +34,23 @@ function Projects(){
                         <div className="card">
                             <div className=" d-flex flex-row row">
                                 <div className="col-md-5 ">
+                                <h3 className="card-title">Website e Blog Valem</h3>
+                                <p>Este projeto foi desenvolvido para a empresa Tecfag, utilizando a plataforma WordPress. Foram empregadas diversas linguagens, bibliotecas e plugins, incluindo PHP, JavaScript, Bootstrap, Owl Carousel e Flexbox, para criar uma solução robusta e funcional.</p>
+                                </div>
+                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                                    <img src={Valem} alt="Imagem projeto Valem" className="img-projeto" />
+                                    <a href="https://valempack.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
+                                </div>
+                            </div>
+                          </div>
+                        <div className="card">
+                            <div className=" d-flex flex-row row">
+                                <div className="col-md-5 ">
                                 <h3 className="card-title">Blog Hectar</h3>
                                 <p>Este projeto foi desenvolvido para a empresa Hectar, utilizando um template pré-existente na plataforma WordPress. Foram empregadas diversas linguagens, bibliotecas e plugins, incluindo PHP, JavaScript, Bootstrap, Owl Carousel e Flexbox, para criar uma solução robusta e funcional.</p>
                                 </div>
                                 <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={BlogHectar} alt="Imagem primeiro projeto" className="img-projeto" />
+                                    <img src={BlogHectar} alt="Imagem projeto Hectar" className="img-projeto" />
                                     <a href="https://blog.hectar.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
                                 </div>
                             </div>
