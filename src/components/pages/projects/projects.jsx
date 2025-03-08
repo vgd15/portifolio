@@ -19,7 +19,13 @@ import DomLocalStorage from '../../../img/DomLocalStorage.png'
 import PaginaDinamica from '../../../img/PaginaDinamica.png';
 import MetodosArray from '../../../img/MetodosArray.png';
 import ValidandoFormularios from '../../../img/ValidandoFormularios.png';
-import Valem from '../../../img/Valem.png';
+import Valem from '../../../img/valem.png';
+import SantaCruz from '../../../img/santa-cruz.png';
+import VilaNova from '../../../img/vila-nova.png';
+import TheBlushLab from '../../../img/the-blush-lab.png';
+import ClinicaDosCapacetes from '../../../img/clinica-dos-capacetes.png';
+import RDX from '../../../img/rdx.png';
+import GHCI from '../../../img/GHCI.png'; 
 
 
 
@@ -82,8 +88,20 @@ function Projects(){
                           <div className="card">
                             <div className=" d-flex flex-row row">
                                 <div className="col-md-5 ">
+                                <h3 className="card-title">RDX </h3>
+                                <p>Este projeto se trata de uma landing page, foi desenvolvida para a empresa RDX, utilizando a plataforma WordPress. Foram empregadas diversas linguagens, bibliotecas e plugins, incluindo PHP, JavaScript, Bootstrap, Owl Carousel e Flexbox, para criar uma solução robusta e funcional.</p>
+                                </div>
+                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                                    <img src={RDX} alt="Imagem DO projeto" className="img-projeto" />
+                                    <a href="https://rdxlog.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
+                                </div>
+                            </div>
+                          </div>
+                          <div className="card">
+                            <div className=" d-flex flex-row row">
+                                <div className="col-md-5 ">
                                 <h3 className="card-title">Time Esporte Clube Vitória</h3>
-                                <p>Este projeto foi desenvolvido através da plataforma Linx, a partir de um template existente,  foi utlizado a linguagem liquid juntamente com html, css e JS.</p>
+                                <p>Este projeto foi desenvolvido através da plataforma Linx, a partir de um template existente. Foi utlizado a linguagem liquid juntamente com html, css e JS.</p>
                                 </div>
                                 <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
                                     <img src={VoltVitoria} alt="Imagem terceiro projeto" className="img-projeto" />
@@ -94,8 +112,56 @@ function Projects(){
                           <div className="card">
                             <div className=" d-flex flex-row row">
                                 <div className="col-md-5 ">
+                                <h3 className="card-title">Time Esporte Clube Santa Cruz</h3>
+                                <p>Este projeto foi desenvolvido através da plataforma Linx, a partir de um template existente. Foi utlizado a linguagem liquid juntamente com html, css e JS.</p>
+                                </div>
+                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                                    <img src={SantaCruz} alt="Imagem do projeto" className="img-projeto" />
+                                    <a href="https://www.lojadosantacruz.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
+                                </div>
+                            </div>
+                          </div>
+                          <div className="card">
+                            <div className=" d-flex flex-row row">
+                                <div className="col-md-5 ">
+                                <h3 className="card-title">Time Esporte Clube Vila Nova</h3>
+                                <p>Este projeto foi desenvolvido através da plataforma Linx, a partir de um template existente. Foi utlizado a linguagem liquid juntamente com html, css e JS.</p>
+                                </div>
+                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                                    <img src={VilaNova} alt="Imagem do projeto" className="img-projeto" />
+                                    <a href="https://www.lojadovila.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
+                                </div>
+                            </div>
+                          </div>
+                          <div className="card">
+                            <div className=" d-flex flex-row row">
+                                <div className="col-md-5 ">
+                                <h3 className="card-title">GHC Imports</h3>
+                                <p>Este projeto foi desenvolvido através da plataforma Linx, a partir de um template existente, porém com algumas personalizações. Foi utlizado a linguagem liquid juntamente com html, css e JS.</p>
+                                </div>
+                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                                    <img src={GHCI} alt="Imagem do projeto" className="img-projeto" />
+                                    <a href="https://www.ehomebrasil.com/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
+                                </div>
+                            </div>
+                          </div>
+                          <div className="card">
+                            <div className=" d-flex flex-row row">
+                                <div className="col-md-5 ">
+                                <h3 className="card-title">Clínica dos capacetes</h3>
+                                <p>Este projeto foi desenvolvido através da plataforma Linx, a partir de um template existente. Foi utlizado a linguagem liquid juntamente com html, css e JS.</p>
+                                </div>
+                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                                    <img src={ClinicaDosCapacetes} alt="Imagem do projeto" className="img-projeto" />
+                                    <a href="https://www.clinicadoscapacetes.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
+                                </div>
+                            </div>
+                          </div>
+                          <div className="card">
+                            <div className=" d-flex flex-row row">
+                                <div className="col-md-5 ">
                                 <h3 className="card-title">Lan San Day</h3>
-                                <p>Este projeto foi desenvolvido em grupo através da plataforma Linx, a partir de um template existente,  foi utlizado a linguagem liquid juntamente com html, css e JS.</p>
+                                <p>Este projeto foi desenvolvido em grupo através da plataforma Linx, a partir de um template existente. Foi utlizado a linguagem liquid juntamente com html, css e JS.</p>
                                 </div>
                                 <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
                                     <img src={LanSayDay} alt="Imagem quarto projeto" className="img-projeto" />
@@ -112,6 +178,18 @@ function Projects(){
                                 <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
                                     <img src={VicioDiPrata} alt="Imagem quinto projeto" className="img-projeto" />
                                     <a href="https://www.viciodiprata.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
+                                </div>
+                            </div>
+                          </div>
+                          <div className="card">
+                            <div className=" d-flex flex-row row">
+                                <div className="col-md-5 ">
+                                <h3 className="card-title">The Blush Lab</h3>
+                                <p>Este projeto foi desenvolvido na plataforma Linx, a partir de um template existente,  foi utlizado a linguagem Liquid juntamente com Html, Css, JS e Bootstrap.</p>
+                                </div>
+                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                                    <img src={TheBlushLab} alt="Imagem do projeto" className="img-projeto" />
+                                    <a href="https://www.theblushlab.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
                                 </div>
                             </div>
                           </div>

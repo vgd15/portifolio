@@ -17,7 +17,7 @@ function About(){
                          <line y1="3" x2="110" y2="3" stroke="#007157" stroke-width="6"/>
                          </svg>
 
-                         <span className="occupation">Desenvolvedora Front-End</span>
+                         <span className="occupation">Desenvolvedora Full-Stack</span>
 
                          <div className="footer-box col-12 ">
                             <ul className="d-flex flex-row gap-3 justify-content-center align-items-center">
@@ -28,7 +28,7 @@ function About(){
                     </div>
 
                     <div className="box-text col-md-4 col-12">
-                        <h2 className="salutation"><strong>Olá</strong></h2>
+                        <h2 className="salutation"><strong>Olá, bem vindo</strong></h2>
                         <span>Meu perfil e meus projetos</span>
                         <div className="button-list">
                             <ul className="d-flex flex-row gap-2 gap-md-3 justify-content-center align-items-center flex-wrap">

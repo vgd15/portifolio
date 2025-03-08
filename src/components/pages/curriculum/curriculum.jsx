@@ -76,7 +76,7 @@ return(
                <p>Piracicaba-Sp</p>
             </div>
             <div className="col-md-7 d-flex justify-content-center align-items-center">
-               <p className="card-text">Cursando tecnologia da informação na Univesp, localizada em Piracicaba-Sp no modelo EAD, atualmente no 4° semestre do total de 6.  </p>
+               <p className="card-text">Cursando tecnologia da informação na Univesp, localizada em Piracicaba-Sp no modelo EAD, atualmente no 6° semestre do total de 6.  </p>
             </div>
          </div>
         </div>
