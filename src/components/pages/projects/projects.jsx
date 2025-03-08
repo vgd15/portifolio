@@ -19,13 +19,7 @@ import DomLocalStorage from '../../../img/DomLocalStorage.png'
 import PaginaDinamica from '../../../img/PaginaDinamica.png';
 import MetodosArray from '../../../img/MetodosArray.png';
 import ValidandoFormularios from '../../../img/ValidandoFormularios.png';
-import Valem from '../../../img/valem.png';
-import SantaCruz from '../../../img/santa-cruz.png';
-import VilaNova from '../../../img/vila-nova.png';
-import TheBlushLab from '../../../img/the-blush-lab.png';
-import ClinicaDosCapacetes from '../../../img/clinica-dos-capacetes.png';
-import RDX from '../../../img/rdx.png';
-import GHCI from '../../../img/GHCI.png'; 
+import Valem from '../../../img/Valem.png';
 
 
 
