@@ -25,7 +25,8 @@ import VilaNova from '../../../img/vila-nova.png';
 import TheBlushLab from '../../../img/the-blush-lab.png';
 import ClinicaDosCapacetes from '../../../img/clinica-dos-capacetes.png';
 import RDX from '../../../img/rdx.png';
-import GHCI from '../../../img/GHCI.png'; 
+import GHCI from '../../../img/GHCI.png';
+import Stog from '../../../img/stog.png';  
 
 
 function Projects(){
@@ -36,6 +37,18 @@ function Projects(){
                     <div className="card-box d-flex justify-content-center align-items-center flex-column">
                     <div className="card-projects top-card d-flex justify-content-center align-items-start flex-column gap-4 ">
                         <h3>Projetos Profissionais</h3>
+                        <div className="card">
+                            <div className=" d-flex flex-row row">
+                                <div className="col-md-5 ">
+                                <h3 className="card-title">Website Stog</h3>
+                                <p>Este projeto foi desenvolvido para a empresa Stog utilizando WordPress. Com tecnologias como PHP, JavaScript, Bootstrap, criamos uma solução robusta e funcional. Desenvolvi com um tema próprio e código limpo com integração de Ajax para filtros dinâmicos, garantindo uma experiência eficiente e moderna.</p>
+                                </div>
+                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                                    <img src={Stog} alt="Imagem projeto Stog" className="img-projeto" />
+                                    <a href="https://stog.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
+                                </div>
+                            </div>
+                          </div>
                         <div className="card">
                             <div className=" d-flex flex-row row">
                                 <div className="col-md-5 ">
